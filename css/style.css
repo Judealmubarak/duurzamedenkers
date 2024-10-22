@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 229, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(76, 114, 76);
+}
+main{
+    flex: 1;
+}
+p{
+    color:rgb(79, 70, 54);
+}
+a:hover {
+    color: rgb(113, 187, 67);
+}
+a:active{
+    color: rgb(217, 222, 69);
+}
+
+a {
+    color: rgb(76, 114, 76);
+}
+
+article{
+    max-width: 30%;
+
+}
+
+header img {
+    width: 21%;
+}
+
+main img{
+    width: 100%;
+}
+.video-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+    gap: 5em; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 10px;
+    background-color: rgb(191, 206, 156);
+}
+footer p:first-of-type{
+    color:rgb(76, 114, 76);
+    font-weight: bold;
+    margin: 0;
+}
+footer p{
+    margin: 0;
+}
+
+.slogan{
+        display: flex;            
+        justify-content: center;   
+        align-items: center;      
+        height: 50px;             
+        background-color: rgb(191, 206, 156); 
+        font-size: 20px;
+        font-weight: bold;
+
+}
+
+video {
+    width: 450px;
+    margin-top:20px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    color: rgb(54, 110, 79);
+}
+
+nav {
+    margin-left: auto; 
+}
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 20px; 
+}
+
+li img {
+    width: 150px; 
+    margin-right: 20px; 
+}
+
+li div {
+    display: flex;
+    flex-direction: column; 
+}
+
+li h2 {
+    margin: 0; 
+}
+
+li p {
+    margin: 5px 0 0; 
+}
+.overons-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.afleveringen-container {
+    text-align: center;
+}
+
+
+
